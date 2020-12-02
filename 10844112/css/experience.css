@@ -1,0 +1,70 @@
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 7px;
+    background-color:#3E5478;
+    top: 0;
+    bottom: 0;
+    left: -62px;
+}
+.container1{
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 80%;
+}
+.container1::after{
+    content: '';
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    right: -17px;
+    background-color: #3E5478;
+    border: 4px solid #3E5478;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the right */
+.right {
+left: -59px;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+left: -16px;
+}
+
+/* The actual content */
+.content {
+padding: 20px 30px;
+background-color:  #DBE5EE;
+position: relative;
+border-radius: 6px;
+color: #3E5478;
+font-family: NSimSun;
+font-weight: bold;
+}
+.img{
+    float: right;
+    margin-left: 10px;
+    position: relative;
+    top: -120px;
+}
+.img1{
+    float: right;
+    margin-left: 10px;
+    position: relative;
+}
+ul{
+    list-style-type: square;
+    font-size: 35px;
+    color: #3E5478;
+}

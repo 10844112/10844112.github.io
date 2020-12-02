@@ -1,0 +1,125 @@
+.container{
+    width: 100%;
+    background-color: #DBE5EE;
+    
+}
+.skills{
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+}
+
+
+@keyframes bounceInLeft {
+    0% {
+      opacity: 0;
+      transform: translate3d(-50%, 0, 0);
+      /*translate3d (x,y,z)；x,y,z 分别带表水平垂直和z轴的位移*/
+    }
+  
+    40% {
+      opacity: 1;
+      transform: translate3d(25px, 0, 0);
+    }
+  
+    75% {
+      transform: translate3d(-10px, 0, 0);
+    }
+  
+    90% {
+      transform: translate3d(5px, 0, 0);
+    }
+  
+    100% {
+      transform: none;
+    }
+  }
+  
+  @keyframes bounceInRight {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 0, -40%);
+    }
+  
+    40% {
+      opacity: 1;
+      transform: translate3d(0, 0, 5px);
+    }
+  
+    75% {
+      transform: translate3d(0, 0, -10px);
+    }
+  
+    90% {
+      transform: translate3d(0, 0, 25px);
+    }
+  
+    100% {
+      transform: none;
+    }
+  }
+
+.c{
+    width: 70%;
+    background-color: #988DA7;
+    animation: bounceInLeft 5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition: 0.5s;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.c:hover {background-color: #988DA7;}
+
+.java{
+    width: 65%;
+    background-color: #988DA7;
+    transition: width 2s;
+    animation: bounceInLeft 5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition: 0.5s;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.java:hover {background-color: #988DA7;}
+
+.html{
+    width: 75%; 
+    background-color:#988DA7;
+    transition: width 2s;
+    animation: bounceInLeft 5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition: 0.5s;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.html:hover {background-color: #988DA7;}
+
+.css{
+    width: 60%; 
+    background-color: #988DA7;
+    transition: width 2s; 
+    animation: bounceInLeft 5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition: 0.5s;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.css:hover {background-color: #988DA7;;}
+
+.js{
+    width: 50%; 
+    background-color: #988DA7;
+    transition: width 2s;
+    animation: bounceInLeft 5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition: 0.5s;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.js:hover {background-color: #988DA7;}
